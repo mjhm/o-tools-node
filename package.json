@@ -1,26 +1,39 @@
 {
-  "name": "o-update-npm",
+  "name": "o-tools-node",
   "version": "0.0.3",
   "author": "Kevin Goslar",
   "bin": {
     "update": "bin/update",
-    "update-check": "bin/update-check"
+    "update-check": "bin/update-check",
+    "publish": "bin/publish"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "david": "7.0.1",
+    "inquirer": "^0.12.0",
+    "jsonfile": "^2.2.3",
+    "semver": "^5.1.0",
+    "stream-buffers": "^3.0.0",
+    "text-stream-accumulator": "^0.1.1"
   },
   "description": "Scripts to update NPM repositories according to Originate's guidelines",
   "engines": {
     "npm": ">= 3.0.0"
   },
-  "homepage": "https://github.com/Originate/npm-update-scripts",
+  "files": [
+    "bin",
+    "dist",
+    "npm-shrinkwrap.json"
+  ],
+  "homepage": "https://github.com/Originate/o-tools-node",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Originate/o-update-npm.git"
-  },
-  "dependencies": {
-    "david": "7.0.1"
+    "url": "git+https://github.com/Originate/o-tools-node.git"
   },
   "scripts": {
+    "prepublish": "bin/build",
     "postpublish": "git push && git push --tags",
-    "preversion": "bin/update-check"
+    "preversion": "node_modules/o-tools-node/bin/update-check && bin/spec"
   }
 }
