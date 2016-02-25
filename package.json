@@ -18,5 +18,9 @@
   },
   "dependencies": {
     "david": "7.0.1"
+  },
+  "scripts": {
+    "postpublish": "git push && git push --tags",
+    "preversion": "bin/update-check"
   }
 }
