@@ -3,6 +3,6 @@
 rm -rf node_modules
 rm npm-shrinkwrap.json 2> /dev/null
 set -e
-david u
+node_modules/david/bin/david.js u
 npm install --depth 0
 npm shrinkwrap --dev
