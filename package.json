@@ -2,6 +2,10 @@
   "name": "o-update-npm",
   "version": "0.0.1",
   "author": "Kevin Goslar",
+  "bin": {
+    "update": "bin/update",
+    "update-check": "bin/update-check"
+  },
   "description": "Scripts to update NPM repositories according to Originate's guidelines",
   "homepage": "https://github.com/Originate/npm-update-scripts",
   "license": "ISC",
@@ -11,5 +15,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "david": "7.0.1"
   }
 }

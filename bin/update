@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+rm -rf node_modules
+rm npm-shrinkwrap.json
+set -e
+david u
+npm i
+npm shrinkwrap --dev
