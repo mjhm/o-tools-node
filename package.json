@@ -1,0 +1,15 @@
+{
+  "name": "o-update-npm",
+  "version": "0.0.1",
+  "author": "Kevin Goslar",
+  "description": "Scripts to update NPM repositories according to Originate's guidelines",
+  "homepage": "https://github.com/Originate/npm-update-scripts",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Originate/npm-update-scripts.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
