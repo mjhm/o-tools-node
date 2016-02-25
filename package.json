@@ -7,6 +7,9 @@
     "update-check": "bin/update-check"
   },
   "description": "Scripts to update NPM repositories according to Originate's guidelines",
+  "engines": {
+    "npm": ">= 3.0.0"
+  },
   "homepage": "https://github.com/Originate/npm-update-scripts",
   "license": "ISC",
   "repository": {
