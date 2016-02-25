@@ -17,6 +17,9 @@
     "text-stream-accumulator": "^0.1.1"
   },
   "description": "Scripts to update NPM repositories according to Originate's guidelines",
+  "devDependencies": {
+    "livescript": "1.4.0"
+  },
   "engines": {
     "npm": ">= 3.0.0"
   },
@@ -32,7 +35,7 @@
     "url": "git+https://github.com/Originate/o-tools-node.git"
   },
   "scripts": {
-    "prepublish": "bin/build",
+    "prepublish": "lsc --compile --bare --output dist src",
     "postpublish": "git push && git push --tags",
     "preversion": "bin/update-check"
   }
