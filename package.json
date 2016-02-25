@@ -34,6 +34,6 @@
   "scripts": {
     "prepublish": "bin/build",
     "postpublish": "git push && git push --tags",
-    "preversion": "bin/update-check && (if [ -f /bin/spec ]; then; bin/spec; fi)"
+    "preversion": "bin/update-check"
   }
 }
