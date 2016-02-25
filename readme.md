@@ -15,6 +15,19 @@
   $ npm i --save-dev o-tools-node
   ```
 
+* add these scripts to your `bin` folder:
+
+  <table>
+    <tr>
+      <th>spec</th>
+      <td>runs all tests</td>
+    </tr>
+    <tr>
+      <th>build</th>
+      <td>builds your project</td>
+    </tr>
+  </table>
+
 * set up the CI server to automatically publish
   new releases from the `release` branch.
 
