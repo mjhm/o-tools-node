@@ -1,19 +1,17 @@
 # O-Tools for NodeJS repositories [![Dependency Status](https://david-dm.org/Originate/o-tools-node.svg)](https://david-dm.org/Originate/o-tools-node)
 
-> tools to manage NodeJS repositories according to
+> Tools for managing NodeJS repositories according to
   [Originate's guidelines](https://github.com/Originate/guide/blob/master/node_js.md).
 
 
 
 ## Installation
 
+```
+$ npm i --save-dev o-tools-node
+```
+
 * make sure your $PATH includes `./bin` and `/node_modules/.bin`
-
-* install this tool
-
-  ```
-  $ npm i --save-dev o-tools-node
-  ```
 
 * add these scripts to your `bin` folder:
 
