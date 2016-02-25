@@ -1,6 +1,6 @@
 {
   "name": "o-tools-node",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Kevin Goslar",
   "bin": {
     "update": "bin/update",
