@@ -1,4 +1,4 @@
-# O-Update for NPM-based repositories
+# O-Update for NPM-based repositories [![Dependency Status](https://david-dm.org/Originate/o-update-npm.svg)](https://david-dm.org/Originate/o-update-npm)
 
 This NPM module provides functionality to update NodeJS repositories
 according to
