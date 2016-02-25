@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 rm -rf node_modules
-rm npm-shrinkwrap.json
+rm npm-shrinkwrap.json 2> /dev/null
 set -e
 david u
 npm install --depth 0
