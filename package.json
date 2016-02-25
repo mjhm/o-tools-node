@@ -34,6 +34,6 @@
   "scripts": {
     "prepublish": "bin/build",
     "postpublish": "git push && git push --tags",
-    "preversion": "node_modules/o-tools-node/bin/update-check && bin/spec"
+    "preversion": "bin/update-check && bin/spec"
   }
 }
