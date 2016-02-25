@@ -14,10 +14,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Originate/npm-update-scripts.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "url": "git+https://github.com/Originate/o-update-npm.git"
   },
   "dependencies": {
     "david": "7.0.1"
