@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
-node_modules/david/bin/david.js u
+node_modules/o-tools/node_modules/david/bin/david.js u
 set +e
 rm -rf node_modules
 rm npm-shrinkwrap.json 2> /dev/null
