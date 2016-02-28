@@ -1,6 +1,6 @@
 {
   "name": "o-tools",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Kevin Goslar",
   "bin": {
     "update": "bin/update",
