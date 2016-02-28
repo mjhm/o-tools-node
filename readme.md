@@ -13,7 +13,8 @@ $ npm i --save-dev o-tools-node
 
 * make sure your $PATH includes `./bin` and `/node_modules/.bin`
 
-* add these scripts to your `bin` folder:
+* add these scripts to your `bin` folder and make them do what they are supposed
+  to do with your code base:
 
   <table>
     <tr>
