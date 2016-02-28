@@ -1,6 +1,6 @@
 {
   "name": "o-tools-node",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "dependencies": {
     "amdefine": {
       "version": "1.0.0",
