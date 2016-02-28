@@ -36,7 +36,7 @@ inquirer.prompt type: 'list', name: 'continue', message: 'Are you sure?', choice
   if run("git rev-parse --abbrev-ref HEAD", no) isnt 'master' then display-error 'You must be on the master branch to publish'
 
   run "git pull"
-  run "node_modules/o-tools/bin/check-update"
+  run "node_modules/o-tools/bin/update-check"
   run "bin/spec"
   run "npm version #{level}"
   run "git push"
