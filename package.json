@@ -36,7 +36,6 @@
   },
   "scripts": {
     "prepublish": "lsc --compile --bare --output dist src",
-    "postpublish": "git push && git push --tags",
-    "preversion": "bin/update-check"
+    "postpublish": "git push && git push --tags"
   }
 }
