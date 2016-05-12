@@ -13,7 +13,7 @@
 $ npm i --save-dev o-tools-node
 ```
 
-* make sure your $PATH includes `./bin` and `/node_modules/.bin`
+* make sure your $PATH includes `./bin` and `/node_modules/.bin` (in this order)
 
 * add these scripts to the `bin` folder of your Node.JS code base
   and make them do their thing:
@@ -34,6 +34,15 @@ $ npm i --save-dev o-tools-node
 
 
 ## Tools
+
+* __setup:__
+  Installs the Node.JS dependencies for your code base.
+  To use a customized setup script for your code base,
+  put your own `setup` script into your `./bin` folder.
+
+  ```
+  $ setup
+  ```
 
 * __update-check:__
   checks whether updates to your dependencies are available

@@ -27,6 +27,7 @@
     "bin/publish",
     "bin/update",
     "bin/update-check",
+    "bin/setup",
     "dist",
     "npm-shrinkwrap.json"
   ],
