@@ -55,3 +55,8 @@ $ npm i --save-dev o-tools-node
   ```
   $ publish <patch|minor|major>
   ```
+
+
+## Development
+
+see our [developer documentation](CONTRIBUTING.md)
