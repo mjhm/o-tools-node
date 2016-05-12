@@ -10,6 +10,7 @@ require! {
 {name, version} = jsonfile.readFileSync 'package.json'
 
 if process.argv.length != 3
+  display-current-version name, version
   display-help!
 
 level = process.argv[2]
@@ -62,6 +63,10 @@ function display-finish
 function display-error error
   console.log red "\n#{error}\n"
   process.exit 1
+
+
+function display-current-version name, version
+  console.log "\n#{green name} is currently at version #{cyan version}\n"
 
 
 function display-help
