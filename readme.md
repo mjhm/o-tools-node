@@ -15,13 +15,13 @@ $ npm i --save-dev o-tools-node
 
 * make sure your $PATH includes `./bin` and `/node_modules/.bin`
 
-* add these scripts to your `bin` folder and make them do what they are supposed
-  to do with your code base:
+* add these scripts to the `bin` folder of your Node.JS code base
+  and make them do their thing:
 
   <table>
     <tr>
       <th>spec</th>
-      <td>runs all tests</td>
+      <td>runs all tests and linters</td>
     </tr>
     <tr>
       <th>build</th>
@@ -35,28 +35,23 @@ $ npm i --save-dev o-tools-node
 
 ## Tools
 
-### update-check
+* __update-check:__
+  checks whether updates to your dependencies are available
 
-Checks whether updates to your dependencies are available.
+  ```
+  $ update-check
+  ```
 
-```
-$ update-check
-```
+* __update:__
+  updates all your dependencies to their latest versions.
 
+  ```
+  $ update
+  ```
 
-### update
+* __publish:__
+  releases a new version to NPM
 
-Updates all your dependencies to their latest versions.
-
-```
-$ update
-```
-
-
-### publish
-
-Releases a new version to NPM
-
-```
-$ publish <patch|minor|major>
-```
+  ```
+  $ publish <patch|minor|major>
+  ```
