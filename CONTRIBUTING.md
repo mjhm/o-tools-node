@@ -18,6 +18,15 @@ $ david
 
 ## Deploy a new version
 
+You can't use the built-in `publish` script,
+so do this manually:
+
 ```
-$ publish <patch|minor|major>
+david
+npm version <patch|minor|major>
+git checkout release
+git pull
+git merge master
+git push
+git checkout master
 ```

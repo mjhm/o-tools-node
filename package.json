@@ -38,6 +38,7 @@
     "url": "git+https://github.com/Originate/o-tools-node.git"
   },
   "scripts": {
-    "prepublish": "bin/build"
+    "prepublish": "bin/build",
+    "postpublish": "git push && git push --tags"
   }
 }
