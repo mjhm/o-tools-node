@@ -24,7 +24,9 @@
     "npm": ">= 3.0.0"
   },
   "files": [
-    "bin",
+    "bin/publish",
+    "bin/update",
+    "bin/update-check",
     "dist",
     "npm-shrinkwrap.json"
   ],
