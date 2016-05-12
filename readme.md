@@ -2,6 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/Originate/o-tools-node.svg?style=shield)](https://circleci.com/gh/Originate/o-tools-node)
 [![Dependency Status](https://david-dm.org/Originate/o-tools-node.svg)](https://david-dm.org/Originate/o-tools-node)
+[![devDependency Status](https://david-dm.org/Originate/o-tools-node/dev-status.svg)](https://david-dm.org/Originate/o-tools-node#info=devDependencies)
 
 > Tools for managing NodeJS repositories according to
   [Originate's guidelines](https://github.com/Originate/guide/blob/master/node_js.md).
