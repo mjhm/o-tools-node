@@ -1,8 +1,10 @@
-# O-Tools for NodeJS repositories [![Dependency Status](https://david-dm.org/Originate/o-tools-node.svg)](https://david-dm.org/Originate/o-tools-node)
+# O-Tools for NodeJS repositories
+
+[![CircleCI](https://circleci.com/gh/Originate/o-tools-node.svg?style=shield)](https://circleci.com/gh/Originate/o-tools-node)
+[![Dependency Status](https://david-dm.org/Originate/o-tools-node.svg)](https://david-dm.org/Originate/o-tools-node)
 
 > Tools for managing NodeJS repositories according to
   [Originate's guidelines](https://github.com/Originate/guide/blob/master/node_js.md).
-
 
 
 ## Installation
@@ -53,7 +55,7 @@ $ update
 
 ### publish
 
-To release a new version of your NPM module:
+Releases a new version to NPM
 
 ```
 $ publish <patch|minor|major>

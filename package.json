@@ -37,7 +37,6 @@
     "url": "git+https://github.com/Originate/o-tools-node.git"
   },
   "scripts": {
-    "prepublish": "lsc --compile --bare --output dist src",
-    "postpublish": "git push && git push --tags"
+    "prepublish": "bin/build"
   }
 }
