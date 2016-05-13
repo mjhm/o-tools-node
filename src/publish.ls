@@ -4,7 +4,6 @@ require! {
   'inquirer'
   'jsonfile'
   'semver'
-  'text-stream-accumulator' : Accumulator
 }
 
 {name, version} = jsonfile.readFileSync 'package.json'

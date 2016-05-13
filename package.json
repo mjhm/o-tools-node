@@ -12,12 +12,11 @@
     "david": "7.0.2",
     "inquirer": "1.0.2",
     "jsonfile": "^2.2.3",
-    "semver": "^5.1.0",
-    "stream-buffers": "^3.0.0",
-    "text-stream-accumulator": "^0.1.1"
+    "semver": "^5.1.0"
   },
   "description": "Scripts to update NPM repositories according to Originate's guidelines",
   "devDependencies": {
+    "dependency-lint": "4.0.1",
     "livescript": "1.4.0"
   },
   "engines": {
