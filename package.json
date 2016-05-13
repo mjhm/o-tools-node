@@ -8,10 +8,10 @@
     "publish": "bin/publish"
   },
   "dependencies": {
-    "chalk": "1.1.1",
+    "chalk": "1.1.3",
     "david": "7.0.2",
     "inquirer": "1.0.2",
-    "jsonfile": "2.2.3",
+    "jsonfile": "2.3.1",
     "semver": "5.1.0"
   },
   "description": "Scripts to update NPM repositories according to Originate's guidelines",
