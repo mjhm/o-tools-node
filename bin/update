@@ -13,8 +13,5 @@ rm npm-shrinkwrap.json 2> /dev/null
 set -e
 npm install --depth 0
 
-# remove duplicate dependencies
-npm dedupe
-
 # lock the current dependencies
 npm shrinkwrap --dev
