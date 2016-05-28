@@ -14,12 +14,10 @@
     "dependency-lint": "4.0.1",
     "inquirer": "1.0.2",
     "jsonfile": "2.3.1",
-    "semver": "5.1.0",
-    "text-stream-accumulator": "0.2.0"
+    "semver": "5.1.0"
   },
   "description": "Scripts to update NPM repositories according to Originate's guidelines",
   "devDependencies": {
-    "livescript": "1.5.0",
     "o-tools-livescript": "1.0.3"
   },
   "engines": {
