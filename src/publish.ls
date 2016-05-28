@@ -4,12 +4,12 @@ require! {
   'inquirer'
   'jsonfile'
   'semver'
-  'text-stream-accumulator' : Accumulator
 }
 
 {name, version} = jsonfile.readFileSync 'package.json'
 
 if process.argv.length != 3
+  display-current-version name, version
   display-help!
 
 level = process.argv[2]
@@ -22,7 +22,12 @@ unless target-version
 
 console.log "\nYou are about to bump #{green bold name} version #{cyan bold version} up to #{cyan bold target-version}\n"
 
-inquirer.prompt([type: 'list', name: 'continue', message: 'Are you sure?', choices: ['yes', 'no']]).then (answer) ->
+question =
+  type: 'list'
+  name: 'continue'
+  message: 'Are you sure?'
+  choices: ['yes', 'no']
+inquirer.prompt([question]).then (answer) ->
   if answer.continue == 'no'
     console.log '\nAborting ...\n'
     process.exit!
@@ -62,6 +67,10 @@ function display-finish
 function display-error error
   console.log red "\n#{error}\n"
   process.exit 1
+
+
+function display-current-version name, version
+  console.log "\n#{green name} is currently at version #{cyan version}\n"
 
 
 function display-help

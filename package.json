@@ -1,8 +1,9 @@
 {
   "name": "o-tools",
-  "version": "0.1.4",
+  "version": "0.3.2",
   "author": "Kevin Goslar",
   "bin": {
+    "setup": "bin/setup",
     "update": "bin/update",
     "update-check": "bin/update-check",
     "publish": "bin/publish"
@@ -25,7 +26,10 @@
     "npm": ">= 3.0.0"
   },
   "files": [
-    "bin",
+    "bin/publish",
+    "bin/update",
+    "bin/update-check",
+    "bin/setup",
     "dist",
     "npm-shrinkwrap.json"
   ],
@@ -36,7 +40,7 @@
     "url": "git+https://github.com/Originate/o-tools-node.git"
   },
   "scripts": {
-    "prepublish": "lsc --compile --bare --output dist src",
-    "postpublish": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "prepublish": "bin/build"
   }
 }
