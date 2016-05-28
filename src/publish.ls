@@ -22,7 +22,7 @@ unless target-version
 
 console.log "\nYou are about to bump #{green bold name} version #{cyan bold version} up to #{cyan bold target-version}\n"
 
-inquirer.prompt type: 'list', name: 'continue', message: 'Are you sure?', choices: ['yes', 'no'], (answer) ->
+inquirer.prompt([type: 'list', name: 'continue', message: 'Are you sure?', choices: ['yes', 'no']]).then (answer) ->
   if answer.continue == 'no'
     console.log '\nAborting ...\n'
     process.exit!
