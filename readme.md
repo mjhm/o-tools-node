@@ -45,6 +45,13 @@ $ npm i --save-dev o-tools-node
   $ setup
   ```
 
+* __lint:__
+  runs [dependency-lint](https://github.com/charlierudolph/dependency-lint)
+
+  ```
+  $ lint
+  ```
+
 * __update-check:__
   checks whether updates to your dependencies are available
 
