@@ -37,6 +37,6 @@
   },
   "scripts": {
     "postversion": "git push && git push --tags",
-    "prepublish": "bin/build"
+    "prepublish": "node_modules/o-tools-livescript/bin/build"
   }
 }

@@ -5,9 +5,7 @@ executedModules:
   npmScripts:
     dev: []
   shellScripts:
-    dev:
-      - bin/build
-      - bin/watch
+    dev: []
     ignore: []
     root: 'bin/*'
 
