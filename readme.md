@@ -5,7 +5,7 @@
 [![devDependency Status](https://david-dm.org/Originate/o-tools-node/dev-status.svg)](https://david-dm.org/Originate/o-tools-node#info=devDependencies)
 
 > Tools for managing NodeJS repositories according to
-  [Originate's guidelines](https://github.com/Originate/guide/blob/master/node_js.md).
+  [Originate's guidelines](https://github.com/Originate/guide/blob/master/javascript/node_js.md).
 
 
 ## Installation
